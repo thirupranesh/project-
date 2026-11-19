@@ -1,0 +1,19 @@
+GITHUB QUICK STEPS (Windows)
+1. Extract the ZIP.
+2. Open the project folder in File Explorer.
+3. Click the address bar, type cmd, press Enter.
+4. Run:
+   git init
+   git add .
+   git commit -m "Add project specification and sample data"
+   git add main.py classifier.py system_prompt.txt
+   git commit -m "Build complaint classification and ticket workflow"
+   git add tests docs README.md .gitignore
+   git commit -m "Add evaluation, red-team tests and documentation"
+   git branch -M main
+5. Create an empty GitHub repository named Hostel-Maintenance-Ticket-Sorter.
+6. Run (replace YOUR-USERNAME):
+   git remote add origin https://github.com/YOUR-USERNAME/Hostel-Maintenance-Ticket-Sorter.git
+   git push -u origin main
+
+IMPORTANT: Keep your real API key in .env only. Never push .env.
